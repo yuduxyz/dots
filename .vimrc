@@ -25,6 +25,8 @@ Plugin 'scrooloose/nerdcommenter'
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ternjs/tern_for_vim'
+Plugin 'tpope/vim-surround'
+Plugin 'posva/vim-vue'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -44,7 +46,7 @@ set ruler
 " 总是显示状态栏
 set laststatus=2
 " 禁止折行
-set nowrap
+"set nowrap
 " 将制表符扩展为空格
 set expandtab
 " 格式化时制表符占用空格数 shiftwidth
